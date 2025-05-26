@@ -34,7 +34,7 @@ function change(){
 image.addEventListener('mouseover', change );
 
 function reset() {
-    image.setAttribute('src', '..//TPFinal Bloc1/images/photoAccueilPx.png');
+    image.setAttribute('src', 'images/photoAccueilPx.png');
 }
 
 image.addEventListener('mouseout', reset);
