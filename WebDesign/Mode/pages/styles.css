@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #222222;
+    border: none;
+    color: white;
+    font-family: "Arial";
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 80fr 1fr 1fr 1fr;
+
+}
+h1{
+    padding-left: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: smaller;
+    padding-right: 20px;
+    color:white;
+  
+}
+body{
+    background-color: #111111;
+}
+nav{
+    background-color: #222222;
+    color: white;
+    font-family: "Arial";
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h2{
+    padding-bottom: 10px;
+    color:white;
+}
+p{
+    font-size: small;
+    color:white;
+}
+.img1{
+    margin-top: 20px;
+    padding-left: 20px;
+}
+fieldset{
+    background-color: #333333;
+    text-align: center;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+    border:10px solid #222222;
+    
+}
+.conseil{
+    padding-left: 20px;
+}
+main{
+    margin: 20px 20px 20px 20px;
+    
+}
+.conseil{
+    padding-bottom: 20px;
+}
+div{
+    background-color: #222222;
+    color:white;
+    padding-left: 20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    border-radius:25px;
+    border:20px solid #111111;
+}
+section{
+    border-radius: 25px ;
+    border: 20px solid #111111;
+    background-color: #222222;
+    padding-left: 20px;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+figcaption{
+    color:white;
+    padding: 15px;
+
+}
+footer{
+    text-align:center;
+    font-size: small;
+    color:white;
+    background-color: #222222;
+    padding:10px;
+}
+img{
+    width: 310px;
+    height: 310px;
+}
+.femme{
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 599px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    article{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   }
